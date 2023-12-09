@@ -1,0 +1,34 @@
+body{
+    background-color: #FFFFFF;
+    color: #001F3F;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+}
+h1{
+    font-size: 8rem;
+}
+section{
+    text-align: center;
+    padding: 0 3rem;
+}
+header{
+    margin: 1rem 0.5rem;
+    height: 3rem;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 3rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
