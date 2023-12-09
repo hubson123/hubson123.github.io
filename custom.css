@@ -4,6 +4,9 @@ body{
     font-family: 'Rubik', sans-serif;
     flex-direction: column;
 }
+hr{
+    color:#FF851B
+}
 h1{
     font-size: 8rem;
 }
