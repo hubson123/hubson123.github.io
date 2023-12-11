@@ -35,3 +35,13 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.divider{
+    height: .125rem;
+    background-color: #FF851B;
+    margin: .5rem 0;
+}
+.contact{
+    justify-content: left !important;
+
+    gap: .3rem;
+}
