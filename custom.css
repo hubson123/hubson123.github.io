@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FFFFFF;
     color: #001F3F;
@@ -32,6 +35,28 @@ footer{
     width: 100%;
     height: 3rem;
 }
+a{
+    text-decoration: none;
+    color: #001F3F;
+}
+iframe{
+    border-radius: .5rem;
+    border: .125rem solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FF851B, #001F3F) border-box;
+}
+table{
+    width: 100%;
+    border-spacing: 1rem;
+    text-align: center;
+}
+th, td{
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .125rem solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FF851B, #001F3F) border-box;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -39,11 +64,30 @@ footer{
 }
 .divider{
     height: .125rem;
+    width: 30%;
     background-color: #FF851B;
-    margin: .5rem 0;
+    margin: .5rem auto;
 }
 .contact{
     justify-content: left !important;
-
     gap: .3rem;
+}
+.mini-menu{
+    gap: .5rem;
+        cursor: pointer;
+}
+.cube-back{
+    width: 100%;
+    height: 100%;
+    border-radius: .3rem;
+    background-image: url(./images/kostka_tło.jpeg);
+}
+.cube-background{
+    border-radius: .5rem;
+    width: 560px;
+    height: 315px;
+    border: .125rem solid transparent;
+    background-image: url(./images/kostka_tło.jpeg);
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FF851B, #001F3F) border-box;
 }
