@@ -5,7 +5,7 @@
     <title>Hubert Firek - strona domowa</title>
     <body id="body" class="flex">
         <header>
-            <img src="./images/HUBSON.png" width="70px" height="70px" /> 
+            <img src="./images/HUBIX.jpeg" style="border-radius: 50%;" width="70px" height="70px" /> 
             <nav id="navigate" class="flex mini-menu">
                 <a href="#" class="active">Home</a> | 
                 <a href="#video">Wideo</a> | 
@@ -14,12 +14,25 @@
             </nav>
         </header>
         <section id="home">
-            <img width="200px" height="200px" src="./images/profile.JPG" style="object-fit: cover; border-radius: 50%; margin: 0 auto" />
+            <div class="gallery flex">
+                <img width="400px" height="300px" src="./images/gallery1.jpg" style="object-fit: cover; margin: 0 auto" />             
+                <img width="400px" height="300px" src="./images/gallery2.jpg" style="object-fit: cover; margin: 0 auto" />
+                <img width="400px" height="300px" src="./images/gallery3.jpg" style="object-fit: cover; margin: 0 auto" />
+            </div>
             <h3>Nazywam się Hubert Firek i od 10 lat zajmuję się speedcubingiem - układaniem kostki Rubika na czas. <br />
                 Mam na koncie kilka sukcesów m. in. Mistrzostwo Polski z 2022 roku w konkurencji Clock.<br />
                 Od 4 lat pomagam innym w nauce, a następnie w szlifowaniu umiejętności układania legendarnej łamigłówki.<br />
                 Zapraszam do sekcji wideo, gdzie możecie zobaczyć jak to wygląda w praktyce. <br />Ostrzegam - speedcubing wciąga. <img src="./images/smile_emotikon.png" width="20px" height="20px" />
             </h3>
+        </section>
+        <section id="con">  
+            <h1>Wywiady</h1>
+            <div class="divider"></div>
+            <div class="flex" style="gap: .5rem; flex-wrap: wrap;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HxrGj68hBQM?si=ePM0gghq_jBR0NHx&amp;start=735" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O3JdSs82E0s?si=OAklJE9uUxSCWsPi&amp;start=345" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <a href="https://warszawa.tvp.pl/64427563/09112022" target="_blank" ><div class="cube-background"><div class="flex cube-back"></div></div></a>
+            </div>
         </section>
         <section id="video">
             <h1>Moje występy</h1>
@@ -29,13 +42,17 @@
             <iframe width="560" height="315" src="https://youtube.com/embed/D4VKP9fMn0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/K6Tnujvdh8k?si=ESrGn5gWlx6MFOk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
         </section>
-        <section id="con">  
-            <h1>Wywiady</h1>
+        <section id="benefits">  
+            <h1>Korzyści</h1>
             <div class="divider"></div>
-            <div class="flex" style="gap: .5rem; flex-wrap: wrap;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HxrGj68hBQM?si=ePM0gghq_jBR0NHx&amp;start=735" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " allowfullscreen></iframe>
-                <a href="https://warszawa.tvp.pl/64427563/09112022"><div class="cube-background"><div class="flex cube-back"><h2>Występ w TVP Warszawa (wywiad od 49 minuty)</h2></div></div></a>
-            </div>
+            <p> 
+                <ul>
+                <li><u>Poprawa pamięci:</u> Układanie kostki Rubika wymaga zapamiętania algorytmów i strategii, co pomaga w poprawie pamięci. <br /></li>
+                <li><u>Poprawa cierpliwości:</u> Układanie kostki Rubika wymaga wytrwałości i cierpliwości. Czasami rozwiązanie kostki może zająć kilka godzin. <br /></li>
+                <li><u>Rozwój kreatywności:</u> Układanie kostki Rubika wymaga kreatywnego myślenia i podejścia do problemu. <br /></li>
+                <li><u>Aktywizacja umysłu:</u> Bez względu na to, czy jesteś speedcuberem, czy rozwiązujesz łamigłówki, taka aktywność z pewnością aktywizuje Twój umysł. <br /></li>
+                </ul>
+            </p>
         </section>
         <section id="price-list">  
             <h1>Cennik</h1>
@@ -51,7 +68,7 @@
                 <tbody>
                     <tr>
                         <td>Zajęcia grupowe</td>
-                        <td>40zł/os. przy grupie 10-osobowej</td>
+                        <td>20zł/os. przy grupie 10-osobowej</td>
                         <td>45 min</td>
                     </tr>
                     <tr>
@@ -61,6 +78,8 @@
                     </tr>
                 </tbody>
             </table>
+            <h3>
+            </h3>
         </section>
         <section id="contact"><h1>Kontakt</h1><div class="divider"></div>
             <div class="flex" style="gap: .5rem;">
@@ -69,8 +88,8 @@
             <div class="flex contact"><img src="./images/telefon.png" width="40px" height="40px" />+48 534 114 623</div>
         </div>
         </section>
-        <a href="#" class="to-top">
-            <button>but</button>
+        <a href="#" class="to-top ">
+            <button class="top-scroll-button"><img height="30" width="25" src="./images/arrow-up.png" /></button>
           </a>
         <footer class="flex">© 2023 Hubert Firek</footer>
         <script type="text/javascript">
@@ -80,8 +99,10 @@
             window.addEventListener("scroll", () => {
             if (window.pageYOffset > 100) {
                 toTop.classList.add("active");
+                toTop.classList.add("active-scroll");
             } else {
                 toTop.classList.remove("active");
+                toTop.classList.remove("active-scroll");
             }
             })
             let sections = document.querySelectorAll('section');
