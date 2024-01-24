@@ -114,3 +114,14 @@ li{
     bottom: 2rem;
     right: 2rem;
 }
+ul{
+    li {
+        padding: .5rem;
+        list-style-type: "\1F44D";
+        p{
+            font-size: 1.2rem;
+            color:#FF851B;
+        }
+    }
+      
+}
