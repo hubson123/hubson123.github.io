@@ -1,15 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FFFFFF;
     color: #001F3F;
     font-family: 'Rubik', sans-serif;
     flex-direction: column;
 }
+hr{
+    color:#FF851B
+}
 h1{
-    font-size: 8rem;
+    margin:0;
+    font-size: 2.5rem;
 }
 section{
     text-align: center;
     padding: 0 3rem;
+    margin: 1rem 0;
 }
 header{
     margin: 1rem 0.5rem;
@@ -26,6 +34,32 @@ footer{
     color: white;
     width: 100%;
     height: 3rem;
+}
+a{
+    text-decoration: none;
+    color: #001F3F;
+}
+iframe{
+    border-radius: .5rem;
+    border: .125rem solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FF851B, #001F3F) border-box;
+}
+table{
+    width: 100%;
+    border-spacing: 1rem;
+    text-align: center;
+}
+th, td{
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .125rem solid transparent;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #FF851B, #001F3F) border-box;
+}
+li{
+    padding: .2rem;
+    text-align: left;
 }
 .flex{
     display: flex;
@@ -119,10 +153,10 @@ ul{
     }
     li {
         padding: .5rem;
+        list-style-type: "\1F44D";
         p{
             font-size: 1.2rem;
             color:#FF851B;
         }
     }
-      
-}
+    }
