@@ -165,7 +165,7 @@ ul{
         }
     }
     }
-    @media only screen and (max-width: 500px) { 
+    @media only screen and (max-width: 600px) { 
         .gallery{
             display: block;
             img:first-child, img:nth-child(2) {
