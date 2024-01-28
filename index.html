@@ -1,4 +1,5 @@
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="custom.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap">
@@ -15,9 +16,9 @@
         </header>
         <section id="home">
             <div class="gallery flex">
-                <img width="400px" height="300px" src="./images/gallery1.jpg" style="object-fit: cover; margin: 0 auto" />             
-                <img width="400px" height="300px" src="./images/gallery3.jpg" style="object-fit: cover; margin: 0 auto" />
-                <img width="400px" height="300px" src="./images/gallery2.jpg" style="object-fit: cover; margin: 0 auto" /> 
+                <img width="400px" height="300px" src="./images/gallery1.jpg" style="object-fit: cover;" />             
+                <img width="400px" height="300px" src="./images/gallery3.jpg" style="object-fit: cover;" />
+                <img width="400px" height="300px" src="./images/gallery2.jpg" style="object-fit: cover;" /> 
             </div>
             <h3>Nazywam się Hubert Firek i od 10 lat zajmuję się speedcubingiem - układaniem kostki Rubika na czas. <br />
                 Mam na koncie kilka sukcesów m. in. Mistrzostwo Polski z 2022 roku w konkurencji Clock.<br />
@@ -30,11 +31,11 @@
             <div class="divider"></div>
             <p> 
                 <ul>
-                <li><p>Poprawa pamięci: </p>Układanie kostki Rubika wymaga zapamiętania algorytmów i strategii, co pomaga w poprawie pamięci. <br /></li>
-                <li><p>Poprawa cierpliwości:</p> Układanie kostki Rubika wymaga wytrwałości i cierpliwości. Czasami rozwiązanie kostki może zająć kilka godzin. <br /></li>
-                <li><p>Rozwój kreatywności:</p> Układanie kostki Rubika wymaga kreatywnego myślenia i podejścia do problemu. <br /></li>
-                <li><p>Aktywizacja umysłu:</p> Bez względu na to, czy jesteś speedcuberem, czy rozwiązujesz łamigłówki, taka aktywność z pewnością aktywizuje Twój umysł. <br /></li>
-                <li><p>Tworzenie nowych znajomości:</p> Wspólnota speedcuberów tworzy okazję do nawiązywania nowych znajomości poprzez udział w zawodach czy spotkaniach.</li>
+                <li><p>Poprawa pamięci: </p><small>Układanie kostki Rubika wymaga zapamiętania algorytmów i strategii, co pomaga w poprawie pamięci. </small><br /></li>
+                <li><p>Poprawa cierpliwości:</p><small> Układanie kostki Rubika wymaga wytrwałości i cierpliwości. Czasami rozwiązanie kostki może zająć kilka godzin. </small><br /></li>
+                <li><p>Rozwój kreatywności:</p><small> Układanie kostki Rubika wymaga kreatywnego myślenia i podejścia do problemu. </small><br /></li>
+                <li><p>Aktywizacja umysłu:</p> <small>Bez względu na to, czy jesteś speedcuberem, czy rozwiązujesz łamigłówki, taka aktywność z pewnością aktywizuje Twój umysł. </small><br /></li>
+                <li><p>Tworzenie nowych znajomości:</p> <small>Wspólnota speedcuberów tworzy okazję do nawiązywania nowych znajomości poprzez udział w zawodach czy spotkaniach.</small></li>
             </ul>
             </p>
         </section>
@@ -50,10 +51,12 @@
         <section id="video">
             <h1>Moje występy</h1>
             <div class="divider"></div>
-            <iframe width="560" height="315" src="https://youtube.com/embed/XczfOQ99JpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RpuKpaZ49sM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://youtube.com/embed/D4VKP9fMn0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/K6Tnujvdh8k?si=ESrGn5gWlx6MFOk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+            <div class="flex" style="gap: .5rem; flex-wrap: wrap;">
+                <iframe width="560" height="315" src="https://youtube.com/embed/XczfOQ99JpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RpuKpaZ49sM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://youtube.com/embed/D4VKP9fMn0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K6Tnujvdh8k?si=ESrGn5gWlx6MFOk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+            </div>
         </section>
         <section id="price-list">  
             <h1>Cennik zajęć</h1>
@@ -62,11 +65,16 @@
                 <thead>
                     <tr>
                         <th>Opis</th>
-                        <th>Cena</th>
+                        <th>Cena (netto)</th>
                         <th>Czas trwania zajęć</th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td>Pokaz kostki Rubika</td>
+                        <td>300zł</td>
+                        <td>35-45 min</td>
+                    </tr>
                     <tr>
                         <td>Zajęcia grupowe</td>
                         <td>20zł/os. przy grupie 10-osobowej</td>
